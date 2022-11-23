@@ -1,0 +1,35 @@
+{
+  "name": "jscaptcha",
+  "version": "0.0.1",
+  "description": "Create captcha in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "server-test": "node server.js",
+    "npm-pubish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsrdatta/jscaptcha.git"
+  },
+  "keywords": [
+    "nodejs",
+    "captcha"
+  ],
+  "author": "Datta Gsr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gsrdatta/jscaptcha/issues"
+  },
+  "homepage": "https://github.com/gsrdatta/jscaptcha#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  },
+  "dependencies": {
+    "canvas": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
